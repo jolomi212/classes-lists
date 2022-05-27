@@ -32,4 +32,4 @@ def count_words(str):
         return (wordcount)       
     return(counter(text))
 
-print(count_words("story.txt"))
+print(count_words("./story.txt"))
