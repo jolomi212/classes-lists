@@ -9,7 +9,7 @@ word = word.lower()
 word2 = word2.lower()
 
 
-def find_anagram(word, anagram):
+def find_anagrams(word, anagram):
     # [assignment] Add your code here
    
     word_check = sorted(word)
@@ -23,4 +23,4 @@ def find_anagram(word, anagram):
         return False 
 
 
-find_anagram(word, word2)
+find_anagrams(word, word2)
