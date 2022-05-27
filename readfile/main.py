@@ -13,6 +13,7 @@ def read_file_content(filename):
 
 
 
+#function to count the words in the file
 def count_words(str):
     text = read_file_content(str)
     # [assignment] Add your code here
