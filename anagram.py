@@ -20,6 +20,7 @@ def find_anagram(word, anagram):
         return True
     else:
         print("The given words are not anagrams")
+        return False 
 
 
 find_anagram(word, word2)
