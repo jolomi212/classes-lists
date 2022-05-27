@@ -10,7 +10,10 @@ class Student:
         self.name = new_name
 
     def change_age(self, new_age):
-        self.age = new_age
+        if type(new_age)== int:
+            self.age = new_age
+        else:
+            print("Age value, not an integer")
     
     def add_track(self, new_track):
         
@@ -32,5 +35,7 @@ Bob.change_name("Peter")
 Bob.change_age(34)
 Bob.add_track("UI/UX")
 Bob.get_score()
+
+
 
 
